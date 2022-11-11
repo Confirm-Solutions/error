@@ -1,6 +1,9 @@
 {
   "name": "smalldev",
-  "image": "ghcr.io/confirm-solutions/smalldev@sha256:61d4d1b2209775ec738f3a38ff055ddf19977782f43de87d1c5e738ad78e55a7",
+  "build": {
+    "context": "..",
+    "dockerfile": "../Dockerfile"
+  },
   "customizations": {
     "vscode": {
       "settings": {
